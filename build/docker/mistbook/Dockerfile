@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
-ENV GOLANG_VERSION=go1.15.5.linux-amd64
-ENV ROCKSDB_VERSION=v6.13.3
+ENV GOLANG_VERSION=go1.17.1.linux-amd64
+ENV ROCKSDB_VERSION=v6.22.1
 ENV HOME=/home
 ENV GOPATH=$HOME/go
 ENV PATH=$PATH:$GOPATH/bin
@@ -27,7 +27,7 @@ RUN mkdir -p /home/go/src/github.com  \
     && cd blockbook && git checkout v0.3.6 \
 #    && git checkout d1fd66597bcd7c0e7db08f5f0215c9ab97033c16 \
 #    && dep ensure -vendor-only \
-    && go build
+    && go build -tags rocksdb_6_16
 
 WORKDIR /home/go/src/blockbook
 COPY blockchaincfg.json /home/go/src/blockbook
