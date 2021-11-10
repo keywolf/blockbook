@@ -8,7 +8,7 @@
 {{- end -}}
 <div class="row">
     <div class="col-md-6">
-        <h3>Blockbook</h3>
+        <h3>Blockchain</h3>
         <table class="table data-table">
             <tbody>
                 <tr>
@@ -21,7 +21,7 @@
                 </tr>
                 <tr>
                     <td>Version / Commit / Build</td>
-                    <td class="data">{{$bb.Version}} / <a href="https://github.com/trezor/blockbook/commit/{{$bb.GitCommit}}" target="_blank" rel="noopener noreferrer">{{$bb.GitCommit}}</a> / {{$bb.BuildTime}}</td>
+                    <td class="data">{{$bb.Version}} / {{$bb.GitCommit}} / {{$bb.BuildTime}}</td>
                 </tr>
                 <tr>
                     <td>Synchronized</td>
@@ -55,7 +55,7 @@
         </table>
     </div>
     <div class="col-md-6">
-        <h3>Backend</h3>
+        <h3>Node</h3>
         <table class="table data-table">
             <tbody>
                 {{- if $be.BackendError -}}
