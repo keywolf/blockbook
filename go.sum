@@ -38,6 +38,8 @@ github.com/Groestlcoin/go-groestl-hash v0.0.0-20181012171753-790653ac190c h1:8bY
 github.com/Groestlcoin/go-groestl-hash v0.0.0-20181012171753-790653ac190c/go.mod h1:DwgC62sAn4RgH4L+O8REgcE7f0XplHPNeRYFy+ffy1M=
 github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible/go.mod h1:r7JcOSlj0wfOMncg0iLm8Leh48TZaKVeNIfJntJ2wa0=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
+github.com/PiRK/cashaddr-converter v0.0.0-20220121162910-c6cb45163b29 h1:B11BryeZQ1LrAzzM0lCpblwleB7SyxPfvN2AsNbyvQc=
+github.com/PiRK/cashaddr-converter v0.0.0-20220121162910-c6cb45163b29/go.mod h1:+39XiGr9m9TPY49sG4XIH5CVaRxHGFWT0U4MOY6dy3o=
 github.com/Shopify/sarama v1.19.0/go.mod h1:FVkBWblsNy7DGZRfXLU0O9RCGt5g3g3yEuWXgklEdEo=
 github.com/Shopify/toxiproxy v2.1.4+incompatible/go.mod h1:OXgGpZ6Cli1/URJOF1DMxUHB2q5Ap20/P/eIdh4G0pI=
 github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 h1:fLjPD/aNc3UIOA6tDi6QXUemppXK3P9BI7mr2hd6gx8=
@@ -401,8 +403,9 @@ github.com/mailru/easyjson v0.0.0-20190626092158-b2ccc519800e/go.mod h1:C1wdFJiN
 github.com/martinboehm/bchutil v0.0.0-20190104112650-6373f11b6efe h1:khZWpHuxJNh2EGzBbaS6EQ2d6KxgK31WeG0TnlTMUD4=
 github.com/martinboehm/bchutil v0.0.0-20190104112650-6373f11b6efe/go.mod h1:0hw4tpGU+9slqN/DrevhjTMb0iR9esxzpCdx8I6/UzU=
 github.com/martinboehm/btcd v0.0.0-20190104121910-8e7c0427fee5/go.mod h1:rKQj/jGwFruYjpM6vN+syReFoR0DsLQaajhyH/5mwUE=
-github.com/martinboehm/btcd v0.0.0-20221009194001-987348babe73 h1:IaA3JXJ1iTNurglw33ehZOOyhP8W1rEJX1Y2U42w8fw=
-github.com/martinboehm/btcd v0.0.0-20221009194001-987348babe73/go.mod h1:YGXD0z/xtFXFF5jFp1GaVnrKRlEADn4pD47Zu4xaLg0=
+github.com/martinboehm/btcd v0.0.0-20211010165247-d1f65b0f30fa/go.mod h1:YGXD0z/xtFXFF5jFp1GaVnrKRlEADn4pD47Zu4xaLg0=
+github.com/martinboehm/btcd v0.0.0-20221101112928-408689e15809 h1:a3l5GCQYYyB4zDmtsB8gu+aB15earQxMG1W/S/zKcXs=
+github.com/martinboehm/btcd v0.0.0-20221101112928-408689e15809/go.mod h1:YGXD0z/xtFXFF5jFp1GaVnrKRlEADn4pD47Zu4xaLg0=
 github.com/martinboehm/btcutil v0.0.0-20180706230648-ab6388e0c60a/go.mod h1:NIviPmxe43yBgIB4HGB4w4kv9/s5kaDa/pi+wZAAxQo=
 github.com/martinboehm/btcutil v0.0.0-20210922221517-e83b0c752949/go.mod h1:8iJaVY/VHW6lnojpTXf5X4gF2dx81Xtj2R6lJp2colA=
 github.com/martinboehm/btcutil v0.0.0-20211010173611-6ef1889c1819 h1:ra2UymMEDhR0CVxqz/0minCNXO8YMeZwxdnnFDpWVJ0=
@@ -499,6 +502,10 @@ github.com/peterh/liner v1.1.1-0.20190123174540-a2c9a5303de7/go.mod h1:CRroGNssy
 github.com/philhofer/fwd v1.0.0/go.mod h1:gk3iGcWd9+svBvR0sR+KPcfE+RNWozjowpeBVG3ZVNU=
 github.com/pierrec/lz4 v1.0.2-0.20190131084431-473cd7ce01a1/go.mod h1:3/3N9NVKO0jef7pBehbT1qWhCMrIgbYNnFAZCqQ5LRc=
 github.com/pierrec/lz4 v2.0.5+incompatible/go.mod h1:pdkljMzZIN41W+lC3N2tnIh5sFi+IEE17M5jbnwPHcY=
+github.com/pirk/ecashaddr-converter v0.0.0-20220121162910-c6cb45163b29 h1:awILOeL107zIYvPB1zhkz6ZTp0AaMpLGMoV16DMairA=
+github.com/pirk/ecashaddr-converter v0.0.0-20220121162910-c6cb45163b29/go.mod h1:ATZjpmb9u55Kcrd5M/ca/40H73BZLhduMzCmGwpfWw0=
+github.com/pirk/ecashutil v0.0.0-20220124103933-d37f548d249e h1:WrnL52yXO0jNpHC7UbthJl9mnHPHY7bW3xzmWIuWzh8=
+github.com/pirk/ecashutil v0.0.0-20220124103933-d37f548d249e/go.mod h1:y/B3gomTdd1s23RvcBij/X738fcTobeupT30EhV6nPE=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
